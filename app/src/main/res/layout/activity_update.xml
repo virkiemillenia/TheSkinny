@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Nama"/>
+
+    <EditText
+        android:id="@+id/et_up_name"
+        style="@style/edit_form"
+        android:layout_width="400dp"
+        android:hint="Masukan Nama Skinacre" />
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Jenis Skincare"/>
+
+    <EditText
+        android:id="@+id/et_up_jenis"
+        style="@style/edit_form"
+        android:layout_width="400dp"
+        android:hint="Masukan Jenis Skincare" />
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Harga Skincare"/>
+
+    <EditText
+        android:id="@+id/et_up_harga"
+        style="@style/edit_form"
+        android:layout_width="400dp"
+        android:hint="Masukan Harga Skincare" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_up_submit"
+            android:text="Submit"
+            style="@style/btn_form"/>
+        <Button
+            android:id="@+id/btn_up_cancel"
+            android:text="Cancel"
+            style="@style/btn_form"/>
+    </LinearLayout>
+</LinearLayout>

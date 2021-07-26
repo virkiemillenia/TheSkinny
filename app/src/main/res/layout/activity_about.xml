@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".AboutActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="53dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/about"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/coklat"
+            android:gravity="center"
+            android:typeface="serif"
+            android:text="Skincare adalah serangkaian perawatan kulit yang dapat merawat kesehatan dan kecantikan kulit. Pembersih wajah, pelembap, hingga tabis surya
+adalah berbagai produk perawatan kulit atau skincare yang umum digunakan. Pengguna skincare bertujuan untuk menjaga kulit agar senantiasa sehat dan terawat. Untuk basic skincare yaitu
+ada Facial Wash, Toner, Moisturizer, dan Sunscreen."
+            android:textColor="@color/white"
+            android:textSize="50px" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       T H E S K I N E R Y"
+        android:textColor="@color/coklat"
+        android:textIsSelectable="true"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        android:layout_marginTop="680dp"/>
+
+
+</RelativeLayout>

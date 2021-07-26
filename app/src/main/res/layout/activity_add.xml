@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="ID"/>
+
+    <EditText
+        android:id="@+id/et_add_id"
+        style="@style/edit_form"
+        android:layout_width="401dp"
+        android:hint="Masukan Id" />
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Nama"/>
+
+    <EditText
+        android:id="@+id/et_add_name"
+        style="@style/edit_form"
+        android:layout_width="393dp"
+        android:hint="Masukan Nama" />
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Jenis Skincare"/>
+
+    <EditText
+        android:id="@+id/et_add_jenis"
+        style="@style/edit_form"
+        android:layout_width="394dp"
+        android:hint="Masukan Jenis Skincare" />
+    <TextView
+        style="@style/tv_form"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Harga Skincare"/>
+
+    <EditText
+        android:id="@+id/et_add_harga"
+        style="@style/edit_form"
+        android:layout_width="411dp"
+        android:hint="Masukan harga skincare" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_add_submit"
+            android:text="Submit"
+            style="@style/btn_form"/>
+        <Button
+            android:id="@+id/btn_add_cancel"
+            android:text="Cancel"
+            style="@style/btn_form"/>
+    </LinearLayout>
+</LinearLayout>

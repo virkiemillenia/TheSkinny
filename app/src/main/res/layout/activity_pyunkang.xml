@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/coklat"
+            android:gravity="center"
+            android:typeface="serif"
+            android:text="Pyunkang Yul essence toner adalah salah satu toner yang diformulasikan untuk melembabkan kulit serta mengembalikan energi kulit wajah kita.
+Komposisi yang dinilai sangat aman, Toner Pyunkang yul ini mempunyai tujuh kandungan dalam sebotol
+diantaranya adalah Astragalus Membranceus Root Extract, 1.2 Hexandiol, Butylene Glyco, Bis-PEG-18 Methyl Ether Diemthly Silane,
+Hydroxyethylcellulose,Carboner, serta Arginine"
+            android:textColor="@color/white"
+            android:textSize="50px" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       T H E S K I N E R Y"
+        android:textColor="@color/coklat"
+        android:textIsSelectable="true"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        android:layout_marginTop="680dp"/>
+
+
+</RelativeLayout>

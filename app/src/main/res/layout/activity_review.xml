@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pyunkang"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/coklat"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Pyunkang Yul"
+            android:textColor="@color/white"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/avoskin"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/coklat"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Avoskin"
+            android:textColor="@color/white"
+            android:textSize="50px" />
+
+
+        <TextView
+            android:id="@+id/npure"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/coklat"
+            android:gravity="center"
+            android:text="N'pure"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="50px" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       T H E S K I N E R Y"
+        android:textColor="@color/coklat"
+        android:textIsSelectable="true"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        android:layout_marginTop="680dp"/>
+
+
+</RelativeLayout>
